@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Group of words</string>
+    <string name="item">Item text</string>
+    <string name="nw_group">New group</string>
+    <string name="download">Download</string>
+    <string name="create">Create</string>
+</resources>

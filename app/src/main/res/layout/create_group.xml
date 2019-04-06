@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/red"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nw_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/toolbar"
+        />
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:hint="Name of group"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/textView3"/>
+    <Button
+        android:id="@+id/button_download"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/download"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edittext1"/>
+    <Button
+        android:id="@+id/button_create"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/create"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_download"/>
+</RelativeLayout>
